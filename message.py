@@ -13,13 +13,13 @@ class Spiels:
         choice = int(choice)
         if choice == 1:
             self.randomize()
-            print(self.NOCSpiels[choice][self.randNO])
+            print(self.NOCSpiels[0][self.randNO])
         if choice == 2:
             self.randomize()
-            print(self.NOCSpiels[choice][self.randNO])
+            print(self.NOCSpiels[1][self.randNO])
         if choice == 3:
             self.randomize()
-            print(self.NOCSpiels[choice][self.randNO])
+            print(self.NOCSpiels[2][self.randNO])
         
 
     def randomize(self):
